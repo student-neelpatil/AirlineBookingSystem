@@ -1,5 +1,5 @@
-import express from 'express'
-import {PORT} from "./config/serverconfig.js"
+const express=require('express');
+const {PORT}=require('../src/config/config.json')
 
 const serverconnect=async()=>{
    const app=express();
